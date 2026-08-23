@@ -1,0 +1,110 @@
+# -------------------------------------------------------------
+# Personal details — edit this block first
+# -------------------------------------------------------------
+title: ""
+first_name: Subin
+middle_name: ""
+last_name: Jin
+lang: en
+icon: "◌"
+
+description: >
+  Research portfolio of Subin Jin: injectable bioelectronics, conductive hydrogels,
+  neural interfaces, neuromodulation, and regenerative biomaterials.
+keywords: bioelectronics, conductive hydrogel, injectable biomaterials, neural interface, neuromodulation, regenerative engineering
+
+# Change these after creating your GitHub repository / custom domain.
+url: ""
+baseurl: ""
+
+contact_note: >
+  For research and postdoctoral opportunities, please use the contact links below.
+footer_text: >
+  Built with <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> and GitHub Pages.
+
+# -------------------------------------------------------------
+# al-folio v1.x
+# -------------------------------------------------------------
+theme: al_folio_core
+al_folio:
+  api_version: 1
+  style_engine: tailwind
+  features:
+    cv:
+      enabled: true
+
+navbar_fixed: true
+footer_fixed: false
+search_enabled: true
+socials_in_search: true
+posts_in_search: false
+bib_search: true
+max_width: 1180px
+back_to_top: true
+
+enable_darkmode: true
+enable_navbar_social: false
+enable_medium_zoom: true
+enable_project_categories: false
+enable_publication_thumbnails: false
+lazy_loading_images: true
+imagemagick:
+  enabled: false
+
+# -------------------------------------------------------------
+# Collections / Jekyll
+# -------------------------------------------------------------
+collections:
+  projects:
+    output: true
+
+include: ["_pages"]
+exclude:
+  - README.md
+  - README_KO.md
+  - COPY_KO.md
+  - preview/
+  - Gemfile
+  - Gemfile.lock
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-link-attributes
+  - jekyll-paginate-v2
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-socials
+  - jemoji
+  - al_folio_core
+  - al_icons
+  - al_folio_cv
+  - al_email_protect
+  - al_search
+
+# -------------------------------------------------------------
+# Publications — your name is highlighted automatically
+# -------------------------------------------------------------
+scholar:
+  last_name: [Jin]
+  first_name: [Subin, S.]
+  style: apa
+  locale: en
+  source: /_bibliography/
+  bibliography: papers.bib
+  bibliography_template: bib
+  bibtex_filters: [latex, smallcaps, superscript]
+  replace_strings: true
+  join_strings: true
+  details_dir: bibliography
+  details_link: Details
+  query: "@*"
+  group_by: year
+  group_order: descending
+
+max_author_limit: 8
+filtered_bibtex_keywords: [abbr, abstract, additional_info, bibtex_show, html, pdf, preview, selected, website]

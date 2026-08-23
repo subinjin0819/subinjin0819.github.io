@@ -1,0 +1,88 @@
+# =============================================================
+# EDIT THIS FILE for most homepage text changes.
+# =============================================================
+hero:
+  eyebrow: "BIOMEDICAL ENGINEERING · BIOELECTRONIC MATERIALS"
+  headline: "Injectable bioelectronics for seamless tissue interfacing"
+  subheadline: >
+    I engineer soft, injectable, and electrically active biomaterials that create
+    minimally invasive interfaces with biological tissues—linking material design
+    to neuromodulation, closed-loop rehabilitation, and regeneration.
+  primary_cta: "Explore research"
+  primary_url: "/research/"
+  secondary_cta: "Publications"
+  secondary_url: "/publications/"
+
+credentials:
+  - top: "Nature"
+    bottom: "2023 · co-first author"
+  - top: "Adv. Healthcare Mater."
+    bottom: "2025 · first author"
+  - top: "Nature Protocols"
+    bottom: "2026 · co-first author"
+  - top: "Core platform"
+    bottom: "Injectable conductive hydrogels"
+
+research:
+  - id: "injectable"
+    number: "01"
+    title: "Injectable Bioelectronic Interfaces"
+    summary: >
+      Conductive hydrogels that are delivered by injection and form soft electrical
+      bridges directly within irregular, deep, or damaged tissue environments.
+    tags: ["injectable hydrogels", "conductive biomaterials", "tissue interfacing"]
+  - id: "neural"
+    number: "02"
+    title: "Neural & Regenerative Interfaces"
+    summary: >
+      Adhesive and electrically active biomaterials designed to stabilize neural
+      interfaces while supporting peripheral nerve repair and functional recovery.
+    tags: ["peripheral nerve", "adhesion", "regeneration"]
+  - id: "neuromodulation"
+    number: "03"
+    title: "Closed-loop & Wireless Neuromodulation"
+    summary: >
+      Material-enabled stimulation strategies that connect soft biointerfaces with
+      sensing, closed-loop control, and minimally invasive neuromodulation.
+    tags: ["neuromodulation", "closed-loop systems", "wireless interfaces"]
+
+vision:
+  kicker: "RESEARCH VISION"
+  title: "From conductive biomaterials to adaptive therapeutic interfaces"
+  intro: >
+    My next research direction is to move beyond passive electrical conduction and
+    build biointerfaces whose mechanics, chemistry, and electrical function actively
+    adapt to tissue state and regenerative needs.
+  pillars:
+    - title: "Molecularly programmed biointerfaces"
+      text: "Couple interfacial conductivity with dynamic biochemical and cell-instructive functions."
+    - title: "Minimally invasive neural electronics"
+      text: "Replace bulky implants with injectable, conformal, or in-situ-formed neural interfaces."
+    - title: "Bioelectronic control of regeneration"
+      text: "Use electrical and material cues together to guide nerve, muscle, and CNS repair."
+
+selected_work:
+  - journal: "Nature"
+    year: "2023"
+    role: "Co-first author"
+    title: "Injectable tissue prosthesis for instantaneous closed-loop rehabilitation"
+    blurb: >
+      An injectable conductive hydrogel that establishes immediate electrical tissue
+      interfaces and supports closed-loop robot-assisted rehabilitation.
+    url: "https://doi.org/10.1038/s41586-023-06628-x"
+  - journal: "Advanced Healthcare Materials"
+    year: "2025"
+    role: "First author"
+    title: "Adhesive and Conductive Fibrous Hydrogel Bandages for Effective Peripheral Nerve Regeneration"
+    blurb: >
+      A fibrous hydrogel interface combining tissue adhesion and electrical function
+      for peripheral nerve regeneration.
+    url: "https://doi.org/10.1002/adhm.202403722"
+  - journal: "Nature Protocols"
+    year: "2026"
+    role: "Co-first author"
+    title: "An injectable conductive hydrogel for closed-loop and robot-assisted rehabilitation via stretchable patch-type electrodes"
+    blurb: >
+      A reproducible protocol connecting injectable conductive materials with soft
+      electronics and closed-loop rehabilitation.
+    url: "https://doi.org/10.1038/s41596-025-01184-2"
